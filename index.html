@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Take_Home_4</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="full_page">
+      <div id="main_header">Find your used car!!</div>
+      <div id="filter_body">
+        <div id="search_title">
+          <form>
+            <input
+              id="search_btn"
+              type="button"
+              value="Click here to search!"
+              onclick="msg()"
+            />
+          </form>
+        </div>
+        <div id="input_body">
+          <div id="car_year_box">
+            <div id="car_year_header">select car model year</div>
+            <div id="year_input_box">
+              <input
+                id="min_year_input"
+                type="number"
+                name="min_year"
+                min="2014"
+                max="2023"
+                value="2014"
+              />
+              to
+              <input
+                id="max_year_input"
+                type="number"
+                name="max_year"
+                min="2014"
+                max="2023"
+                value="2023"
+              />
+            </div>
+          </div>
+          <div id="car_make_box">
+            <div id="car_make_header">select car make</div>
+            <div id="make_input_box">
+              <select id="make_input">
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+                <option value="nissan">Nissan</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="volkswagon">Volkswagon</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="subaru">Subaru</option>
+                <option value="mazda">Mazda</option>
+                <option value="kia">Kia</option>
+                <option value="dodge">Dodge</option>
+                <option value="cadillac">Cadillac</option>
+                <option value="jaguar">Jaguar</option>
+                <option value="tesla">Tesla</option>
+                <option value="porsche">Porsche</option>
+                <option value="lexus">Lexus</option>
+                <option value="bmx">BMW</option>
+              </select>
+            </div>
+          </div>
+          <div id="mile_box">
+            <div id="mile_header">select desired mileage</div>
+            <div id="mile_input_box">
+              <select id="mile_input">
+                <option value="15000">-15,000</option>
+                <option value="30000">-30,000</option>
+                <option value="50000">-50,000</option>
+                <option value="100000">-100,000</option>
+                <option value="2">+100,000</option>
+              </select>
+            </div>
+          </div>
+          <div id="car_price_box">
+            <div id="car_price_header">select car price range</div>
+            <div id="price_input_box">
+              <input
+                id="min_price_input"
+                type="number"
+                name="min_price"
+                min="2014"
+                max="2023"
+                value="2014"
+              />
+              to
+              <input
+                id="max_price_input"
+                type="number"
+                name="max_price"
+                min="2014"
+                max="2023"
+                value="2023"
+              />
+            </div>
+          </div>
+          <div id="car_color_box">
+            <div id="car_color_header">select car color</div>
+            <div id="color_input_box">
+              <select id="color_input">
+                <option value="silver">Silver</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="gray">Gray</option>
+                <option value="green">Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="output_body">
+      <div id="output_block">
+        &nbsp;
+        <div id="info_block">&nbsp;</div>
+        <div id="image_block">&nbsp;</div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts.js"></script>
+  <script src="./usedCars.js"></script>
+</html>

@@ -1,0 +1,387 @@
+body {
+  height: auto;
+  width: auto;
+
+  display: flex;
+}
+
+#main_header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 8vh;
+
+  margin: none;
+  padding: none;
+
+  background-color: #03254c;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+#filter_body {
+  position: absolute;
+  top: 8%;
+  left: 0;
+
+  display: flex;
+
+  width: 100vw;
+  height: 12vh;
+
+  background-color: #1167b1;
+}
+
+#search_title {
+  display: flex;
+
+  width: 30vw;
+  height: 12vh;
+
+  background-color: #1167b1;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#search_btn {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#input_body {
+  display: flex;
+
+  width: 80vw;
+  height: 12vh;
+
+  background-color: #1167b1;
+
+  align-items: center;
+}
+
+#car_year_box {
+  display: block;
+
+  width: 18vw;
+  height: 12vh;
+
+  justify-content: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#car_year_header {
+  display: flex;
+
+  width: 18vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#year_input_box {
+  display: flex;
+
+  width: 18vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#min_year_input {
+  display: flex;
+
+  width: 5vw;
+  height: 4vh;
+
+  margin-right: 1vw;
+}
+
+#max_year_input {
+  display: flex;
+
+  width: 5vw;
+  height: 4vh;
+
+  margin-left: 1vw;
+}
+
+#car_make_box {
+  display: block;
+
+  width: 12vw;
+  height: 12vh;
+
+  justify-content: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#car_make_header {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#make_input_box {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+
+  background-color: #2a9df4;
+}
+
+#make_input {
+  display: flex;
+
+  height: 4vh;
+  width: 8vw;
+}
+
+#mile_box {
+  display: block;
+
+  width: 12vw;
+  height: 12vh;
+
+  justify-content: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#mile_header {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#mile_input_box {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#mile_input {
+  display: flex;
+
+  height: 4vh;
+  width: 8vw;
+}
+
+#car_price_box {
+  display: block;
+
+  width: 18vw;
+  height: 12vh;
+
+  justify-content: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#car_price_header {
+  display: flex;
+
+  width: 18vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#price_input_box {
+  display: flex;
+
+  width: 18vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#min_price_input {
+  display: flex;
+
+  width: 5vw;
+  height: 4vh;
+
+  margin-right: 1vw;
+}
+
+#max_price_input {
+  display: flex;
+
+  width: 5vw;
+  height: 4vh;
+
+  margin-left: 1vw;
+}
+
+#car_color_box {
+  display: block;
+
+  width: 12vw;
+  height: 12vh;
+
+  justify-content: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#car_color_header {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#color_input_box {
+  display: flex;
+
+  width: 12vw;
+  height: 6vh;
+
+  background-color: #2a9df4;
+
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  outline-color: #03254c;
+  outline-style: solid;
+}
+
+#color_input {
+  display: flex;
+
+  height: 4vh;
+  width: 8vw;
+}
+
+#output_body {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 0;
+
+  width: 100vw;
+  height: 80vh;
+
+  background-color: #03254c;
+}
+
+#output_block {
+  display: flex;
+
+  height: 70vh;
+  width: 88vw;
+
+  margin-top: 5vh;
+  margin-left: 6vw;
+
+  background-color: #03254c;
+
+  align-items: center;
+}
+
+#info_block {
+  display: flex;
+
+  width: 25vw;
+  height: 65vh;
+
+  margin-left: 2vw;
+
+  background-color: #1167b1;
+}
+
+#image_block {
+  display: flex;
+
+  width: 55vw;
+  height: 65vh;
+
+  background-color: #1167b1;
+
+  margin-left: 4vw;
+}
