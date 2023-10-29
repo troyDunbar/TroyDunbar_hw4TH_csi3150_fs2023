@@ -365,14 +365,77 @@ body {
 }
 
 #info_block {
-  display: flex;
+  display: block;
 
   width: 25vw;
-  height: 65vh;
+  height: 54vh;
 
   margin-left: 2vw;
 
   background-color: #1167b1;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#year_info_box {
+  display: flex;
+
+  width: 23vw;
+  height: 8vh;
+
+  margin-top: 1vh;
+  margin-left: 1vw;
+
+  background-color: #2a9df4;
+}
+
+#make_info_box {
+  display: flex;
+
+  width: 23vw;
+  height: 8vh;
+
+  margin-top: 2vh;
+  margin-left: 1vw;
+
+  background-color: #2a9df4;
+}
+
+#mile_info_box {
+  display: flex;
+
+  width: 23vw;
+  height: 8vh;
+
+  margin-top: 2vh;
+  margin-left: 1vw;
+
+  background-color: #2a9df4;
+}
+
+#price_info_box {
+  display: flex;
+
+  width: 23vw;
+  height: 8vh;
+
+  margin-top: 2vh;
+  margin-left: 1vw;
+
+  background-color: #2a9df4;
+}
+
+#color_info_box {
+  display: flex;
+
+  width: 23vw;
+  height: 8vh;
+
+  margin-top: 2vh;
+  margin-left: 1vw;
+
+  background-color: #2a9df4;
 }
 
 #image_block {
