@@ -348,6 +348,9 @@ body {
   height: 80vh;
 
   background-color: #03254c;
+
+  justify-content: center;
+  align-items: center;
 }
 
 #output_block {
@@ -362,80 +365,8 @@ body {
   background-color: #03254c;
 
   align-items: center;
-}
-
-#info_block {
-  display: block;
-
-  width: 25vw;
-  height: 54vh;
-
-  margin-left: 2vw;
-
-  background-color: #1167b1;
 
   justify-content: center;
-  align-items: center;
-}
-
-#year_info_box {
-  display: flex;
-
-  width: 23vw;
-  height: 8vh;
-
-  margin-top: 1vh;
-  margin-left: 1vw;
-
-  background-color: #2a9df4;
-}
-
-#make_info_box {
-  display: flex;
-
-  width: 23vw;
-  height: 8vh;
-
-  margin-top: 2vh;
-  margin-left: 1vw;
-
-  background-color: #2a9df4;
-}
-
-#mile_info_box {
-  display: flex;
-
-  width: 23vw;
-  height: 8vh;
-
-  margin-top: 2vh;
-  margin-left: 1vw;
-
-  background-color: #2a9df4;
-}
-
-#price_info_box {
-  display: flex;
-
-  width: 23vw;
-  height: 8vh;
-
-  margin-top: 2vh;
-  margin-left: 1vw;
-
-  background-color: #2a9df4;
-}
-
-#color_info_box {
-  display: flex;
-
-  width: 23vw;
-  height: 8vh;
-
-  margin-top: 2vh;
-  margin-left: 1vw;
-
-  background-color: #2a9df4;
 }
 
 #image_block {
@@ -447,4 +378,15 @@ body {
   background-color: #1167b1;
 
   margin-left: 4vw;
+}
+
+#scroll_block {
+  display: block;
+
+  width: 55vw;
+  height: 65vh;
+
+  background-color: white;
+
+  overflow-y: scroll;
 }

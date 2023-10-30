@@ -174,3 +174,29 @@ const carList = [
 ];
 
 console.log(carList);
+
+function createCarCards() {
+  const carContainer = document.getElementById("scroll_block");
+
+  carList.forEach((car) => {
+    car.price = car.price.toLocaleString();
+    car.mileage = car.mileage.toLocaleString();
+    const card = document.createElement("div");
+    card.className = "car-card";
+    card.innerHTML = `
+    <img src="${car.image}" alt="${car.make} ${car.model} Image">
+    <hr>
+          <h2>${car.make} ${car.model}</h2>
+         
+          <p>Price: $${car.price}</p>
+    <hr>
+     <p>Year: ${car.year}</p>
+    <p> Color: ${car.color} </p>
+    <p> Mileage: ${car.mileage} </p>
+    <p> Miles to the gallon: ${car.gasMileage} </p>
+    <button type="button" class="btn btn-outline-primary">More Details</button>
+      `;
+    carContainer.appendChild(card);
+  });
+}
+createCarCards();
